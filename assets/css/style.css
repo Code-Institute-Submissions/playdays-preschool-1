@@ -34,6 +34,7 @@ h1, h2 {
 #logo {
     padding-left: 50px;
     padding-top: 10px;
+    letter-spacing: 4px;
 }
 
 
@@ -41,6 +42,7 @@ h1, h2 {
     list-style-type: none;
     padding-right: 50px;
     padding-top: 10px;
+    letter-spacing: 2px;
 }
 
 #menu .menu-items {
@@ -98,4 +100,14 @@ h1, h2 {
     to {
         transform: scale(1)
     }
+}
+
+/* style for cover text */
+
+#cover-text {
+    font-size: 2em;
+    font-family: Bubblegum Sans, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 50px;
 }
