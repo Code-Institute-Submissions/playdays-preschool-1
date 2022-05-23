@@ -4,9 +4,32 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Nunito, sans-serif;
     font-weight: 300;
+    color: #0000FF;
+}
+
+h1, h2 {
+    font-family: Bubblegum Sans, sans-serif;
+    text-transform: uppercase;
+    color: #FF1493;
+    letter-spacing: 2px;
+}
+
+#navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu .menu-items {
+    display: inline-block;
 }
