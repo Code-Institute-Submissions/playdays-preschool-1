@@ -20,6 +20,8 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
+/* style for logo and menu */
+
 #navbar {
     background-color: aqua;
     display: flex;
@@ -63,4 +65,37 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #ff0000;
+}
+
+/* style for main image and cover text */
+
+#hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    background-color: aquamarine;
+
+}
+
+#hero-image {
+    height: 600px;
+    max-width: 800px;
+    width: 100%;
+    padding: 10px;
+/* creates zoom effect for hero image */
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the amount of zoom for hero image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1)
+    }
 }
