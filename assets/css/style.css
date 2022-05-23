@@ -27,7 +27,7 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2em;
+    font-size: 2rem;
     
 }
 
@@ -105,9 +105,29 @@ h1, h2 {
 /* style for cover text */
 
 #cover-text {
-    font-size: 2em;
+    font-size: 2rem;
     font-family: Bubblegum Sans, sans-serif;
     text-transform: uppercase;
     text-align: left;
     margin-left: 50px;
+    
+}
+
+#cover-text h2 {
+    color: #0000FF;
+}
+/* playdays services styling */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 50px;
+}
+#services-title {
+    font-size: 2.5rem;
+    }
+#services-list {
+    font-size: 1.3rem;
+    margin-left: 20px;
 }
