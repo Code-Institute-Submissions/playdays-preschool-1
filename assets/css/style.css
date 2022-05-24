@@ -193,6 +193,26 @@ h1, h2 {
     height: 350px;
 }
 
+/* making gallery responsive */
+
+@media (max-width: 1400px) {
+    #gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    #gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* add styles to contact form */
 
 #form-section {
