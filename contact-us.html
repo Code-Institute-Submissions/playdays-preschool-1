@@ -21,24 +21,36 @@
                     <a href="index.html" >About Us</a>
                 </li>
                 <li class="menu-items">
-                    <a href="gallery.html" class="active">Gallery</a>
+                    <a href="gallery.html" >Gallery</a>
                 </li>
                 <li class="menu-items">
-                    <a href="contact-us.html" >Contact Us</a>
+                    <a href="contact-us.html" class="active" >Contact Us</a>
                 </li>
             </ul>
         </nav>
     </header>
    
-    <section id="gallery">
-        <img src="assets/images/kids-painting.jpg" alt="Three children painting">
-        <img src="assets/images/kids-playing.jpg" alt="Four children building with toy blocks">
-        <img src="assets/images/kitchen-facilities.jpg" alt="A school kitchen">
-        <img src="assets/images/playground.jpg" alt="A childrens playground">
-        <img src="assets/images/school-field.jpg" alt="A sports field">
-        <img src="assets/images/school-hall.jpg" alt="A school hall with basketball hoop and stage">
-        <img src="assets/images/school-tables.webp" alt="Kids tables and chairs aligned in a circle">
-        <img src="assets/images/school-toys.jpg" alt="Kids table, chairs, toys and books">
+    <section id="form-section">
+        <form class="registration-form" action="https://formdump.codeinstitute.net/" method="post">
+            <h2>Register interest for 2022!</h2>
+            <label for="fname">Full Name:</label>
+            <input type="text" name="full_name" id="fname" class="text-input" required>
+            <label for="cname">Child's Name:</label>
+            <input type="text" name="childs_name" id="cname" class="text-input" required>
+            <label for="email">Email Address</label>
+            <input type="email" name="email_address" id="email" class="text_input" required>
+            <label for="message">Message</label>
+            <input type="text" name="short_message" id="message" class="text_input">
+
+            <label for="morning">Morning</label>
+            <input type="radio" name="classes" id="morning" value="morning" required>
+            <label for="afternoon">Afternoon</label>
+            <input type="radio" name="classes" id="afternoon" value="afternoon" required>
+            <label for="both">Both</label>
+            <input type="radio" name="classes" id="both" value="both" required>
+
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
     </section>
 
     <footer>
