@@ -110,12 +110,16 @@ h1, h2 {
     text-transform: uppercase;
     text-align: left;
     margin-left: 50px;
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
     
 }
 
 #cover-text h2 {
     color: #0000FF;
-}
+   
 /* playdays services styling */
 
 #services {
@@ -131,4 +135,20 @@ h1, h2 {
 #services-list {
     font-size: 1.3rem;
     margin-left: 20px;
+}
+
+/* class days and times */
+
+#class-times {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 255, 255, 0.4);
+    
+}
+
+#class-times div {
+    width: 100%;
+    text-align: center;
+    border: 2px solid purple;
+    
 }
