@@ -156,6 +156,26 @@ h1, h2 {
     width: 100%;
     text-align: center;
     border: 2px solid purple;
-    
+}
+
+/* styling social media icons */
+
+#social {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    list-style: none;
     
 }
+
+#social i {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#social i:hover {
+    color: #0000FF;
+}
+
+
