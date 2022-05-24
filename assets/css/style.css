@@ -180,6 +180,17 @@ h1, h2 {
 
 /* gallery styling */
 
+#gallery {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+}
 
+#gallery img {
+    width: 450px;
+    height: 350px;
+}
 
 
