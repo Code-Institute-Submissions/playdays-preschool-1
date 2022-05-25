@@ -23,12 +23,10 @@ h1, h2 {
 /* style for logo and menu */
 
 #navbar {
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
-    
 }
 
 #logo {
@@ -38,7 +36,7 @@ h1, h2 {
 }
 
 #logo:hover {
-    color: purple;
+    color: #A020F0;
 }
 
 
@@ -52,12 +50,10 @@ h1, h2 {
 #menu .menu-items {
     display: inline-block;
     padding: 20px 10px ;
-    
 }
 
 .menu-items a {
     color: 	#FF1493;
-    
 }
 
 #navbar a{
@@ -65,13 +61,17 @@ h1, h2 {
 }
 
 #navbar a:hover {
-    color: purple;
-    
+    color: #A020F0;
+    transition-duration: 2s;
 }
 
 .active {
     border-bottom: 1px solid #ff0000;
 }
+
+/* making header responsive to different screen sizes */
+
+
 
 /* style for main image and cover text */
 
@@ -79,9 +79,7 @@ h1, h2 {
     width: 100%;
     display: flex;
     align-items: center;
-    
     background-color: aquamarine;
-
 }
 
 #hero-image {
@@ -118,13 +116,12 @@ h1, h2 {
     animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    
 }
 
 #cover-text h2 {
     color: #0000FF;
-    
 }
+
 /* playdays services styling */
 
 #services {
@@ -132,11 +129,12 @@ h1, h2 {
     flex-direction: column;
     text-align: left;
     margin: 50px;
-    background-color: antiquewhite;
 }
+
 #services-title {
     font-size: 2.5rem;
-    }
+}
+
 #services-list {
     font-size: 1.3rem;
     margin-left: 20px;
@@ -147,15 +145,13 @@ h1, h2 {
 #class-times {
     display: flex;
     flex-direction: row;
-    background-color: rgba(0, 255, 0, 0.3);
-    
-    
+    background-color: #00ff00;
 }
 
 #class-times div {
     width: 100%;
     text-align: center;
-    border: 2px solid purple;
+    border: 2px solid #A020F0;
 }
 
 /* styling social media icons */
@@ -163,10 +159,8 @@ h1, h2 {
 #social {
     display: flex;
     flex-direction: row;
-    background-color: antiquewhite;
     justify-content: space-around;
     list-style: none;
-    
 }
 
 #social i {
@@ -193,7 +187,7 @@ h1, h2 {
     height: 350px;
 }
 
-/* making gallery responsive */
+/* making gallery responsive to differnet screen sizes */
 
 @media (max-width: 1400px) {
     #gallery {
@@ -227,13 +221,12 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    max-width: 960px;
+    max-width: 100%;
     margin-left: 180px;
     padding: 30px;
     background-color: rgba(60, 60, 60, 0.8);
-    
-    
 }
+
 .registration-form > h2 {
     
     margin-bottom: 30px;
@@ -241,29 +234,27 @@ h1, h2 {
 
 .text-input {
     background: transparent;
-    color: whitesmoke;
+    color: #F5F5F5;
     width: 100%;
     border-radius: 2px;
-    border: 2px solid whitesmoke;
+    border: 2px solid #F5F5F5;
     font-size: 2rem;
-
 }
 
 .text-input:hover {
-    border-color: plum;
+    border-color: #673147;
 }
 
 .submit-button {
     margin-top: 20px;
     width: 20%;
-    background-color: rgba(255, 8, 127, 0.7);
+    background-color: #FF1493;
     border-radius: 4px;
     font-size: 2rem;
-
 }
 
 .submit-button:hover {
-    background-color: whitesmoke;
+    background-color: #F5F5F5;
     color: #FF1493;
 }
 
