@@ -22,32 +22,33 @@ h1, h2 {
 
 /* style for logo and menu */
 
-#navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
 }
 
-#logo {
+.logo {
     padding-left: 50px;
     padding-top: 10px;
     letter-spacing: 4px;
 }
 
-#logo:hover {
+.logo:hover {
     color: #A020F0;
+    transition-duration: 2s;
 }
 
 
-#menu {
+.menu {
     list-style-type: none;
     padding-right: 50px;
     padding-top: 10px;
     letter-spacing: 2px;
 }
 
-#menu .menu-items {
+.menu .menu-items {
     display: inline-block;
     padding: 20px 10px ;
 }
@@ -56,11 +57,11 @@ h1, h2 {
     color: 	#FF1493;
 }
 
-#navbar a{
+.navbar a{
     text-decoration: none;
 }
 
-#navbar a:hover {
+.navbar a:hover {
     color: #A020F0;
     transition-duration: 2s;
 }
@@ -75,19 +76,20 @@ h1, h2 {
 
 /* style for main image and cover text */
 
-#hero {
+.hero {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: aquamarine;
 }
 
-#hero-image {
+/* creates zoom effect for hero image */
+
+.hero-image {
     height: 600px;
     max-width: 800px;
     width: 100%;
     padding: 10px;
-/* creates zoom effect for hero image */
+
     animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -106,7 +108,7 @@ h1, h2 {
 
 /* style for cover text */
 
-#cover-text {
+.cover-text {
     font-size: 2rem;
     font-family: Bubblegum Sans, sans-serif;
     text-transform: uppercase;
@@ -118,37 +120,37 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-#cover-text h2 {
+.cover-text h2 {
     color: #0000FF;
 }
 
 /* playdays services styling */
 
-#services {
+.services {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin: 50px;
 }
 
-#services-title {
+.services-title {
     font-size: 2.5rem;
 }
 
-#services-list {
+.services-list {
     font-size: 1.3rem;
     margin-left: 20px;
 }
 
 /* class days and times */
 
-#class-times {
+.class-times {
     display: flex;
     flex-direction: row;
     background-color: #00ff00;
 }
 
-#class-times div {
+.class-times div {
     width: 100%;
     text-align: center;
     border: 2px solid #A020F0;
@@ -156,25 +158,25 @@ h1, h2 {
 
 /* styling social media icons */
 
-#social {
+.social {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
 }
 
-#social i {
+.social i {
     font-size: 2rem;
     padding: 20px;
 }
 
-#social i:hover {
+.social i:hover {
     color: #0000FF;
 }
 
 /* gallery styling */
 
-#gallery {
+.gallery {
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -182,7 +184,7 @@ h1, h2 {
     place-items: center;
 }
 
-#gallery img {
+.gallery img {
     width: 450px;
     height: 350px;
 }
@@ -190,26 +192,29 @@ h1, h2 {
 /* making gallery responsive to differnet screen sizes */
 
 @media (max-width: 1400px) {
-    #gallery {
+    .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media (max-width: 1000px) {
-    #gallery {
+    .gallery {
         grid-template-columns: 1fr 1fr;
+    }
+    .class-times {
+        flex-direction: column;
     }
 }
 
 @media (max-width: 650px) {
-    #gallery {
+    .gallery {
         grid-template-columns: 1fr;
     }
 }
 
 /* add styles to contact form */
 
-#form-section {
+.form-section {
     background: url('../images/hero-image.jpg');
     background-size: cover;
     background-position: center;
