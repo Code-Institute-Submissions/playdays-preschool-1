@@ -46,6 +46,7 @@ h1, h2 {
     padding-right: 50px;
     padding-top: 10px;
     letter-spacing: 2px;
+    display: flex;
 }
 
 .menu .menu-items {
@@ -195,6 +196,12 @@ h1, h2 {
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .navbar {
+        flex-direction: column;
+    }
+    .hero {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -204,11 +211,15 @@ h1, h2 {
     .class-times {
         flex-direction: column;
     }
+    
 }
 
 @media (max-width: 650px) {
     .gallery {
         grid-template-columns: 1fr;
+    }
+    .menu {
+        flex-wrap: wrap;
     }
 }
 
