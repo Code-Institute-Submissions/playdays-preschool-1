@@ -7,6 +7,16 @@
  Users of this website will be able to find all the information they need to know about the Playdays Preschool website: About the facilities,
  school times, contact information and a registration form. This site is targeted at parents of young children looking for a suitable preschool
  to send their kids.
+ 
+what kind of user is using our pages
+
+## User Stories
+
+- As a working mother I first wanted to know what time the playschool runs to see if it's suitable to my own schedule as well as seeing what facilities it provides.
+When a user first enters Playdays Preschools website they are brought to the about us section which gives information on amenities, class days and times as well as a picture of the playschools main room.
+
+- As a parent with young children I want to be able to see pictures of the playschool to get a visual idead of what it looks like.
+The gallery option on the navigation menu allows me to do this, by clicking this option it brings me to a galley page with 8 pictures of the playschool and it's amenities.
 
 ## Features
 
