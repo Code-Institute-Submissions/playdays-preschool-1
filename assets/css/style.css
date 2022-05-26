@@ -11,6 +11,7 @@ body {
     font-family: Nunito, sans-serif;
     font-weight: 300;
     color: #0000FF;
+    background-color: #F5F5DC;
 }
 
 h1, h2 {
@@ -148,13 +149,14 @@ h1, h2 {
 .class-times {
     display: flex;
     flex-direction: row;
-    background-color: #00ff00;
+    background-color: #00FFFF;
 }
 
 .class-times div {
     width: 100%;
     text-align: center;
     border: 2px solid #A020F0;
+    color: #FF1493;
 }
 
 /* styling social media icons */
@@ -219,7 +221,17 @@ h1, h2 {
         grid-template-columns: 1fr;
     }
     .menu {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .form-cover {
+        display: flex;
+        flex-direction: column;
+        padding: 50%px;
+    }
+    .submit-button {
+        color: #0000FF;
     }
 }
 
@@ -255,6 +267,7 @@ h1, h2 {
     margin: auto 0;
     width: 100%;
     padding-top: 60px;
+    color: #FF1493;
 }
 
 
@@ -270,28 +283,28 @@ h1, h2 {
     width: 100%;
     border-radius: 2px;
     border: 2px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
     font-size: 200%;
+    width: 80%;
 }
 
 .text-input:hover {
     border-color: #673147;
 }
 
-.dit {
+.class-time {
     margin: 20px;
     margin-left: 30px;
 }
 
 .submit-button {
-    margin-top: 40px;
-    width: 20%;
-    background-color: #FF1493;
-    border-radius: 4px;
-    font-size: 200%;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    padding-left: 90px;
+    background-color: #FF1493;
+    padding: 20px;
+    color: #F5F5F5;
+    font-size: 150%;
     
 }
 
@@ -299,6 +312,11 @@ h1, h2 {
     background-color: #F5F5F5;
     color: #FF1493;
 }
+
+.registration #message {
+    height: 200px;
+}
+
 
 
 
