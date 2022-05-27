@@ -197,6 +197,31 @@ At the bottom of each page several social media icons link to their respective p
 
   ![performance-score](/docs/wireframes-and-screenshots/Performance-score.jpg)
 
+<br>
+
+## Unfixed Bugs
+
+<br>
+
+- There are no unfixed bugs
+
+<br>
+
+## Deployment
+
+<br>
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to settings tab.
+  - From the the source section drop-down menu select the Master Branch.
+  - Once the master branch has been selected, the page provided the link to the completed website.
+
+<br>
+
+## Credits
+
+- I used font awesome to get my social media icons and google images for my images.
+
 
 
 
