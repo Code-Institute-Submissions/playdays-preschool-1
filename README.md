@@ -11,6 +11,7 @@
 what kind of user is using our pages
 
 ## User Stories
+<br>
 
 - As a working mother I first wanted to know what time the playschool runs to see if it's suitable to my own schedule as well as seeing what facilities it provides.
 When a user first enters Playdays Preschools website they are brought to the about us section which gives information on amenities, class days and times as well as a picture of the playschools main room.
@@ -18,7 +19,14 @@ When a user first enters Playdays Preschools website they are brought to the abo
 - As a parent with young children I want to be able to see pictures of the playschool to get a visual idead of what it looks like.
 The gallery option on the navigation menu allows me to do this, by clicking this option it brings me to a galley page with 8 pictures of the playschool and it's amenities.
 
+- As a dad after looking at several playschool's I have decided that Playdays Preschool is the one for me. All I need now is a way to get in touch.
+The contact us option in the navigation will bring the user to a registration form as well as a phone number for users to contact us on.
+
+- As a concerned parent I want to get more information on this playschool.
+At the bottom of each page several social media icons link to their respective pages.
+
 ## Features
+<br>
 
 - Navigation
 
@@ -26,12 +34,14 @@ The gallery option on the navigation menu allows me to do this, by clicking this
   - The other navigation links are to the right: About Us, Gallery and Contact Us which link to their respective pages.
   - The navigation is a font that looks like code and very colourful de to the nature of the website.
   - The navigation clearly tells the user the name of the business and the  different sections very easy to find.
+<br>
 
 - The Header
   
   - The header shows the name of the business, using the bubblegum sans font with orange and pink colours.
   - The header explains the nature of the business.
   - This section provides the user with clear information about what the site is and the high quality service the busines provides.
+<br>
 
 - The Playdays Provides Section
 
@@ -42,9 +52,15 @@ The gallery option on the navigation menu allows me to do this, by clicking this
 
   - The gallery has multiple pictures of the facilities the business has available such as the playground, hall and kitchen.
   - This section allows parents to get a better picture of what the playschool is like.
+<br>
 
 - The Contact Us Section
 
   - The contact us section has a registration form so parents can register their interest in the playschool.
   - The form collects the parents name, email, phone number and has a section to type a short message.
   - The registration form is very useful as it allows parents to make contact with the business. A contact number and email address for Playdays is also provided in this section.
+<br>
+
+- The Footer 
+
+- The footer secion has social media icons that link to Playdays Preschools pages on these platforms.
