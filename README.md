@@ -46,6 +46,12 @@ At the bottom of each page several social media icons link to their respective p
 
 <br>
 
+- The Class Times Section
+
+  - This section gives details of the days and times the school is open.
+
+<br>
+
 - The Playdays Provides Section
 
   - The Playdays Provides section gives details about the facilities and services the business has available.
@@ -94,7 +100,7 @@ At the bottom of each page several social media icons link to their respective p
 
 - I chose a beige background for the website as it's a neutral colour and allowed the stronger pink and blue colours to stand out even more.
 
-- I've used a cyan colour as a backround for the school days and times to help them stand out.
+- I've used a white colour as a backround for the school days and times to help them stand out.
 
 - When the user hover over the logo and menu items the colour changes to purple to help users understand where they are on the website and a blue when hovering over a social media icon.
 
@@ -107,7 +113,13 @@ At the bottom of each page several social media icons link to their respective p
 <br>
 
 ![Wireframes](/docs/wireframes-and-screenshots/New%20Wireframe%201.jpg)
+
+<br>
+
 ![Wireframes](/docs/wireframes-and-screenshots/New%20Wireframe%203.jpg)
+
+<br>
+
 ![Wireframes](/docs/wireframes-and-screenshots/New%20Wireframe%202.jpg)
 
 <br>
@@ -140,6 +152,18 @@ At the bottom of each page several social media icons link to their respective p
 
 <br>
 
+![screenshots](/docs/wireframes-and-screenshots/About-Us.jpg)
+
+<br>
+
+![screenshots](/docs/wireframes-and-screenshots/Gallery.jpg)
+
+<br>
+
+![screenshots](/docs/wireframes-and-screenshots/Contact-Us.jpg)
+
+<br>
+
 ## Bugs
 
 <br>
@@ -148,9 +172,31 @@ At the bottom of each page several social media icons link to their respective p
 
 - I discovered this was due to my form method was set to post instead of get.
 
-<form class="registration-form" action="well-done.html" method="get">
+    form class="registration-form" action="well-done.html" method="get"
+
+- Changing this fixed problem.
 
 <br>
+
+## Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official W3C validator.
+
+<br>
+
+- CSS
+  - No errors were returned when passing through the official Jigasw validator.
+
+<br>
+
+- Accessibility
+  - I have confirmed that the colours and fonts chosen are easy to read and accessabile by running it through lighthouse in devtools.
+
+<br>
+
+  ![performance-score](/docs/wireframes-and-screenshots/Performance-score.jpg)
+
 
 
 
